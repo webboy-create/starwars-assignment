@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+  min-width: 360px;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: wheat;
+  text-align: center;
+ 
+
+}
+
+img{
+  image-resolution: absolute;
+  border-radius: 0%;
+  border-color: aqua;
+}
+
+.container{
+  display: flex;
+  position:relative;
+}
+
+li:hover{
+  background-color: aquamarine;
+}
+
+li{
+  list-style-type: none;
+}
+
+.hide{
+  display: none;
+}
+
+
+
